@@ -1,0 +1,4 @@
+Transformação dos separadores de ARQs.dat eem underline:
+
+cat ARQs.dat | sed 's/ /_/g' > ARQunder.dat
+
