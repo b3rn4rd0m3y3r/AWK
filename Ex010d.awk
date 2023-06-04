@@ -1,6 +1,6 @@
 BEGIN {
     FS = "[;]"
-    printf("%6s|%16s|%11s|%-9s\n", ".Id.", "No.IP", "Data Inv", "..Hora..")  > "SomaFile.txt"
+    printf("%6s|%16s|%11s|%-9s\n", ".Id.", "No.IP", "Data Inv", "..Hora..")
     Data_ant = "9999/00/00"
     Soma = 0
     }
